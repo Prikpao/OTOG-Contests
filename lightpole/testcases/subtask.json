@@ -1,0 +1,15 @@
+{
+  "version": 1.0,
+  "data": {
+    "subtask 1": {
+      "case": "1-30",
+      "group": false,
+      "score": 60
+    },
+    "subtask 2": {
+      "case": "31-50",
+      "group": true,
+      "score": 40
+    }
+  }
+}

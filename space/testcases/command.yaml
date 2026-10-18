@@ -1,0 +1,4 @@
+c:
+  compile: gcc [sourcePath] [problemPath]/grader.cpp -O2 -std=c99 -fomit-frame-pointer -Wunused-result -o [binPath] 2>[env]/error.txt
+cpp:
+  compile: g++ [sourcePath] [problemPath]/grader.cpp -O2 -std=c++17 -fomit-frame-pointer -Wunused-result -o [binPath] 2>[env]/error.txt
